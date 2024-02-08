@@ -1,1 +1,51 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: aquamarine;
+  margin:0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
+.container{
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:blueviolet;
+}
+
+#logout-btn {
+  background-color: rgb(241, 220, 245);
+  margin-top: 5px;
+  color: black;
+}
