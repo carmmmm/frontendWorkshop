@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+  <script src="script.js" defer></script>
+  <title>Dashboard</title>
+</head>
+<body onload = "getDashboard()">
+  <div class="container">
+  <h1>Dashboard</h1>
+  <h2 id="user-message"></h2>
+  <div class="tidbits">
+    <!-- Add some tidbits here to make it look like an assignment review app home page -->
+    <p>Recent Assignments:</p>
+    <ul>
+      <li>C++ Intro</li>
+      <li>C++ Intermediate</li>
+      <li>C++ Advanced</li>
+    </ul>
+  </div>
+  <button id= "logout-btn" type = "button" onclick="logout()">Logout</button>
+</div>
+</body>
+</html>
